@@ -1,20 +1,14 @@
 # Tutorial for using Regular Expressions with Email Addresses
 
-  
-
-Introductory paragraph (replace this with your text)
+Regular expressions (or regex) are requirements or patterns created for certain inputs. A regex is used for simplistic patterns and complex patterns alike. In this tutorial, I will look into the creation of a regular expression used to verify whether input follows a pattern of an email address.
 
   
 
 ## Summary
-
-  
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
 I have chosen to break apart the regular expression for email validation.
 >/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
+For email validation, this regex has three different groups. I will be calling each of these groups 'username', 'domain' or 'second-level-domain', and 'top-level-domain'. This would be beneficial for forms which require valid email addresses for contact or username.
 
 
 Code example:
@@ -105,7 +99,5 @@ There are three bracket expressions:
   
 
 ## Author
-
-  
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Gage Cotton
+[GitHub Profile](https://github.com/gcot970/regex-tutorial)
